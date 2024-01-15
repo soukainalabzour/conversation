@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    position: relative;
+    width:100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #feffdf;
+}
+#Box{
+position: absolute;
+left:500px;
+top: 20px;
+border: 1px solid white;
+border-radius: 20px;
+width:400px;
+height: 600px;
+background-color: #dde0ab;
+}
+#per1{
+    position: absolute;
+    top:30px;
+    right:300px ;
+    width: 50px;
+    height: 50px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+}
+#per2{
+    position: absolute;
+    top:30px;
+    left:300px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+
+}
+#send{
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+    width:50px ;
+    height: 50px;
+    border-radius: 50%;
+   border: 1px solid transparent;
+   background-color: #938bec;
+   color: white;
+   font-weight: bold;
+}
+#msg{
+    position: absolute;
+    bottom:20px ;
+    left: 10px;
+    width: 300px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 10px;
+  
+}
+
+p{  
+    height: 25px;
+    border-radius: 5px;   
+}
+
+#clear{
+    position: absolute;
+    top:500px;
+    left: 300px;
+    width: 60px;
+    height: 60px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: #ebdfd4;
+}
+
