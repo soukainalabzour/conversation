@@ -30,10 +30,12 @@ per2.addEventListener("click", function(){
 
 Send.addEventListener("click", function(){
     if(User == "per1"){
+        let myTime = new Date();
+
     let createP = document.createElement("p");
     var br = document.createElement("br");
     Box.appendChild(br);
-    createP.innerHTML = textmsg.value ; 
+    createP.innerHTML = textmsg.value + " " + myTime.getHours() +":"+  myTime.getMinutes() ; 
     
     createP.style.backgroundColor = "#66bfbf";
     Box.appendChild(createP);
@@ -50,10 +52,11 @@ Send.addEventListener("click", function(){
 
 Send.addEventListener("click", function(){
     if(User == "per2"){
+        let myTime = new Date();
     let createP = document.createElement("p");
     var br = document.createElement("br");
     Box.appendChild(br);
-    createP.innerHTML =  textmsg.value;
+    createP.innerHTML =  textmsg.value  + " " + myTime.getHours() +":"+  myTime.getMinutes() ;
     createP.style.backgroundColor = "#f76b8a";
     Box.appendChild(createP);
 
